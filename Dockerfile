@@ -2,7 +2,7 @@
 # See the top level Makefile in https://github.com/docker/docker for usage.
 #
 FROM debian:jessie
-MAINTAINER Mary Anthony <mary@docker.com> (@moxiegirl)
+MAINTAINER Joao Fernandes (@joaofnfernandes)
 
 RUN apt-get update \
 	&& apt-get install -y gettext git wget libssl-dev make python-dev python-pip python-setuptools subversion-tools vim-tiny ssed curl \
